@@ -17,8 +17,8 @@ int main(){
     cout<<"Die 2: "<<dice2<<endl;
     cout<<"Total value: "<<sum<<endl;
     if(sum>7){
-        cout<<"You won"<<endl;
+        cout<<name<<" won"<<endl;
     }else{
-        cout<<"You lost"<<endl;
+        cout<<name<<" lost"<<endl;
     }
 }
