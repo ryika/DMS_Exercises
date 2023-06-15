@@ -3,6 +3,11 @@
 using namespace std;
 
 int main(){
+    cout<<"What is your name?"<<endl;
+    string name;
+    cin>>name;
+    cout<<"Hello, "<<name<<endl;
+
     srand(time(0));
     int dice1 = (rand() % 6) + 1;
     int dice2 = (rand() % 6) + 1;
